@@ -4,7 +4,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      "width" 100;
   }
 
 /* shared style */
@@ -50,8 +50,10 @@
     background-image:url(../images/developer.png);
     /* background-image:url(../images/developer.png); */
     background-repeat: no-repeat;
-    height: 750px;
-    background-position: top left
+    height: 800px;
+    background-position: top left;
+    margin-top: 0px;
+    padding-top: 0px;
  }
 
 /* Nav style */
@@ -60,7 +62,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 25px 200px;
 }
 
 nav ul{
