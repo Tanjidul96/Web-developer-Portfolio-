@@ -211,3 +211,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
 
 }
+
+@media screen and (max-widh: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+}
