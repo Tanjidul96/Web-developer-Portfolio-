@@ -14,6 +14,7 @@
 
  .secondary-bg{
     background-color: #fff8f3;
+    /* display: flex; */
  }
 
  .dark-2{
@@ -209,5 +210,27 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+
+}
+
+/* .hide{
+    display: none;
+} */
+
+@media screen and (max-width: 576px) {
+    .skills-container,.resume-container,footer,.about-items{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 90%;
+    }
+    .about{
+        padding: 20px;
+        margin: auto;
+        margin-top: 50px;
+    }
 
 }
