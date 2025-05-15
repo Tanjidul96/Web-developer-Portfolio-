@@ -213,10 +213,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 }
 
-<<<<<<< HEAD
-/* .hide{
-    display: none;
-} */
 
 @media screen and (max-width: 576px) {
     .skills-container,.resume-container,footer,.about-items{
@@ -234,10 +230,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         margin-top: 50px;
     }
 
-=======
+
 @media screen and (max-width: 576px) {
     .skills-container,.about-items,.resume-container{
         flex-direction: column;
     }
->>>>>>> bd296b8a1f1cc162db4623315c87745dfa4de43b
 }
