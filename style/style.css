@@ -237,7 +237,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .about{
         padding: 20px;
         margin: auto;
-        margin-top: 550px;
+        margin-top: 700px;
     }  
     .header{
         background-image: none;
@@ -246,6 +246,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         padding: 20px;
         margin: auto;
         /* margin-top: 50px; */
+    } 
+    .banner > button {
+        gap: 10px;
     } 
     .banner-profile_pic{
         width: 100%;
